@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню ресторана</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ресторан "Вкусные блюда"</h1>
+        <nav>
+            <ul>
+                <li><a href="#soups">Супы</a></li>
+                <li><a href="#drinks">Напитки</a></li>
+                <li><a href="#desserts">Десерты</a></li>
+                <li><a href="#main-courses">Вторые блюда</a></li>
+                <li><a href="#cart">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="soups">
+            <h2>Супы</h2>
+            <div class="menu-item">
+                <h3>Борщ</h3>
+                <p>Цена: 350₽ </p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Щи</h3>
+                <p>Цена: 350₽</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Рассольник</h3>
+                <p>Цена: 350</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Солянка</h3>
+                <p>Цена: 350</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Харчо</h3>
+                <p>Цена: 350</p>
+                <button>Добавить в корзину</button>
+            </div>
+        </section>
+
+        <section id="drinks">
+            <h2>Напитки</h2>
+            <div class="menu-item">
+                <h3>Чай</h3>
+                <p>Цена: 50</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Кофе</h3>
+                <p>Цена: 150</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Сок</h3>
+                <p>Цена: 150</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Морс</h3>
+                <p>Цена: 150</p>
+                <button>Добавить в корзину</button>
+            </div>
+        </section>
+
+        <section id="desserts">
+            <h2>Десерты</h2>
+            <div class="menu-item">
+                <h3>Тирамису</h3>
+                <p>Цена: 999</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Чизкейк</h3>
+                <p>Цена: 350</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Муравейник</h3>
+                <p>Цена: 999</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Торт Прага</h3>
+                <p>Цена: 999</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <!-- Добавьте другие десерты здесь -->
+        </section>
+
+        <section id="main-courses">
+            <h2>Вторые блюда</h2>
+            <div class="menu-item">
+                <h3>Стейк</h3>
+                <p>Цена: 999</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Рыба</h3>
+                <p>Цена: 400</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Отбивные</h3>
+                <p>Цена: 400</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Рыба</h3>
+                <p>Цена: 400</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="menu-item">
+                <h3>Шашлык</h3>
+                <p>Цена: 400</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <!-- Добавьте другие вторые блюда здесь -->
+        </section>
+        <section id="cart">
+            <h2>Корзина</h2>
+            <ul id="cart-items">
+                <!-- Сюда будут добавляться элементы корзины динамически с помощью JavaScript -->
+            </ul>
+            <div id="total">
+                <h3>Общая сумма:</h3>
+                <p>0.00</p>
+                <button>Оформить заказ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ресторан "Вкусные блюда"</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
