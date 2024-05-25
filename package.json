@@ -1,19 +1,20 @@
 {
-  "name": "restoraunt",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "restourant",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch menu.json --port 3001"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "json-server": "^1.0.0-beta.0",
-    "typescript": "^5.4.5"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5"
   }
 }
-

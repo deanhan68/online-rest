@@ -1,1 +1,27 @@
-{}
+{
+  "soups": [
+    { "id": "1", "name": "Борщ", "price": 350, "image": "image/1.jpg", "quantity": 1 },
+    { "id": "2", "name": "Щи", "price": 350, "image": "image/2.jpg", "quantity": 1  },
+    { "id": "3", "name": "Рассольник", "price": 350, "image": "image/3.jpg", "quantity": 1  },
+    { "id": "4", "name": "Солянка", "price": 350, "image": "image/4.jpg", "quantity": 1  },
+    { "id": "5", "name": "Харчо", "price": 350, "image": "image/5.jpg", "quantity": 1  }
+  ],
+  "drinks": [
+    { "id": "6", "name": "Чай", "price": 50, "image": "image/6.jpg", "quantity": 1  },
+    { "id": "7", "name": "Кофе", "price": 150, "image": "image/7.jpg", "quantity": 1  },
+    { "id": "8", "name": "Сок", "price": 150, "image": "image/8.jpg", "quantity": 1  },
+    { "id": "9", "name": "Морс", "price": 150, "image": "image/9.jpg", "quantity": 1  }
+  ],
+  "desserts": [
+    { "id": "10", "name": "Тирамису", "price": 999, "image": "image/10.jpg", "quantity": 1  },
+    { "id": "11", "name": "Чизкейк", "price": 350, "image": "image/11.jpg", "quantity": 1  },
+    { "id": "12", "name": "Муравейник", "price": 999, "image": "image/12.jpg", "quantity": 1  },
+    { "id": "13", "name": "Торт Прага", "price": 999, "image": "image/13.jpg", "quantity": 1  }
+  ],
+  "mainCourses": [
+    { "id": "14", "name": "Стейк", "price": 999, "image": "image/14.jpg", "quantity": 1  },
+    { "id": "15", "name": "Рыба", "price": 400, "image": "image/15.jpg", "quantity": 1  },
+    { "id": "16", "name": "Отбивные", "price": 400, "image": "image/16.jpg", "quantity": 1  },
+    { "id": "17", "name": "Шашлык", "price": 400, "image": "image/17.jpg", "quantity": 1  }
+  ]
+}
