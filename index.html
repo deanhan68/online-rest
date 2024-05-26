@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню ресторана</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script type="module" src="src/main.ts"></script>
+</head>
+<body>
+    <header>
+        <h1>Ресторан "ВкусБлюд"</h1>
+        <nav>
+            <ul>
+                <li class="navigation"><a href="#soups">Супы</a></li>
+                <li class="navigation"><a href="#drinks">Напитки</a></li>
+                <li class="navigation"><a href="#desserts">Десерты</a></li>
+                <li class="navigation"><a href="#main-courses">Вторые блюда</a></li>
+                
+            </ul>
+            <li class="cart-items" id="cart"><img class="basket" src="image/basket.png"></li>
+        </nav>
+    </header>
+    <main class="menu">
+        <section id="soups">
+            <h2>Супы</h2>
+            <div class="menu-items"></div>
+        </section>
+        <section id="drinks">
+            <h2>Напитки</h2>
+            <div class="menu-items"></div>
+        </section>
+        <section id="desserts">
+            <h2>Десерты</h2>
+            <div class="menu-items"></div>
+        </section>
+        <section id="main-courses">
+            <h2>Вторые блюда</h2>
+            <div class="menu-items"></div>
+        </section>
+        <section id="cart">
+            <h2>Корзина</h2>
+            <div class="cart-items"></div>
+            <button id="clear-cart">Очистить корзину</button>
+            <button id="checkout">Оформить заказ</button>
+            <span id="total-price" class="total-price"></span>
+        </section>        
+    </main>
+    <footer>
+        <p>&copy; 2024 Ресторан "Вкусные блюда"</p>
+    </footer>
+</body>
+</html>
